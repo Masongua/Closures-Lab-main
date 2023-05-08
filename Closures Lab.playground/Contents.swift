@@ -1,14 +1,15 @@
 import UIKit
 /*:
 1) Create a closure assigned to a constant fourClosure that has no parameters and returns an Int. The body of the closure should always return the value 4. Call the closure once times..*/
-
+let fourClosure = { () -> Int in return 4}
+print(fourClosure)
 /*:
 2) Write a closure assigned to a constant square that takes an integer as input and returns its square */
-
+let square = { (x: Int) -> Int in return x * x }
 /*:
 3) Write a closure assigned to a constant sum that takes two integers as input and returns their sum:
 */
-
+let sum = { (x: Int, y: Int) -> Int in return x + y}
 /*:
 4) Write  a closure assigned to a constant sumOfEvens that takes an array of integers as input and returns the sum of all even numbers
 */
